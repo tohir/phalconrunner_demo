@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tohir/phalconrunner": "dev-master"
+    }
+}

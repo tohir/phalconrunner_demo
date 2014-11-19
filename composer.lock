@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "837232e359c5ab50769ca248962ba8b2",
+    "packages": [
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
+                "reference": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/smarty_security.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-10-31 04:22:20"
+        },
+        {
+            "name": "tohir/phalconrunner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tohir/phalconrunner.git",
+                "reference": "16d2b4026c78761cee0f2d7aa7bed985131b6f69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tohir/phalconrunner/zipball/16d2b4026c78761cee0f2d7aa7bed985131b6f69",
+                "reference": "16d2b4026c78761cee0f2d7aa7bed985131b6f69",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": ">=1.2.4",
+                "php": ">=5.3.9",
+                "smarty/smarty": "~3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tohir Solomons",
+                    "email": "tohir@tohir.co.za"
+                }
+            ],
+            "description": "Simple framework wrapper using Phalcon Micro, and either Smarty or Twig",
+            "homepage": "http://github.com/tohir/phalconrunner",
+            "keywords": [
+                "framework",
+                "phalcon"
+            ],
+            "time": "2014-11-19 19:37:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tohir/phalconrunner": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
